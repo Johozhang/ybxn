@@ -261,6 +261,9 @@ var gameLoaded = function () {
    poundPipes();
   }
  }
+ document.body.ontouchstart = function (e) {
+   poundPipes();
+ }
  
 }
 
